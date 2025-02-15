@@ -1,0 +1,19 @@
+1. Install PHP
+    - sudo apt update
+    - sudo apt install php
+
+2. Install the Web Server (Apache)
+    - sudo apt install apache2 
+    - sudo apt install libapache2-mod-php 
+
+3. Install MySQL 
+    - sudo apt install mysql-server 
+    - sudo apt install php-mysql 
+
+4. Test
+sudo nano /var/www/html/test.php
+
+Add 
+    <?php
+    phpinfo();
+    ?>
