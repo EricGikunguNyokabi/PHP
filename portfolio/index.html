@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eric Gikungu Nyokabi - Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .navbar {
+      background-color: #343a40 !important;
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+    }
+    .section-title {
+      color: #343a40;
+      margin-bottom: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .card {
+      margin-bottom: 20px;
+      border: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card-header {
+      background-color: #343a40;
+      color: #fff;
+      font-weight: bold;
+    }
+    .footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .hero-section {
+      background: url('images/eric.jpg') no-repeat center center/cover;
+      color: #fff;
+      padding: 100px 0;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .hero-section h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
+    .hero-section .lead {
+      font-size: 1.5rem;
+    }
+    .about-section img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Eric Gikungu Nyokabi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section text-center">
+    <div class="container">
+      <h1 class="display-4">Eric Gikungu Nyokabi</h1>
+      <p class="lead">Fullstack Developer | ICT Professional | Data Scientist</p>
+      <a href="#contact" class="btn btn-primary btn-lg">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/eric.jpg" alt="Eric Gikungu Nyokabi" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <p><strong>Professional Summary:</strong></p>
+          <p>Tech-savvy ICT professional and Fullstack Developer skilled in React, Flask, Laravel, and SEO. Passionate about creating impactful software solutions and empowering communities through ICT projects.</p>
+          <p><strong>Email:</strong> nyokabigikungueric@gmail.com</p>
+          <p><strong>Phone:</strong> +254701 838 170</p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/EricGikunguNyokabi" target="_blank">EricGikunguNyokabi</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/eric-nyokabi-834921308" target="_blank">Eric Nyokabi</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title">Core Skills & Competencies</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Programming & Web Development</div>
+            <div class="card-body">
+              <ul>
+                <li>Frontend: HTML, CSS, Bootstrap, JavaScript, PHP</li>
+                <li>Backend: Python (Flask), PHP (Laravel)</li>
+                <li>Databases: MySQL, MongoDB</li>
+                <li>Tools: Git, GitHub, RESTful APIs, SEO</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Other Skills</div>
+            <div class="card-body">
+              <ul>
+                <li>ICT Systems Support & Maintenance</li>
+                <li>Graphic Design (GIMP, Canva)</li>
+                <li>Data Science (Pandas, Scikit-Learn, Power BI)</li>
+                <li>Networking & Cybersecurity</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Career Portal</div>
+            <div class="card-body">
+              <p>Welcome to my Career Portal, a web application designed to streamline job applications and career management for applicants and HR teams. This system allows applicants to create profiles, upload qualifications, browse job listings, and apply for positions.</p>
+              <a href="https://github.com/EricGikunguNyokabi/career-portal" target="_blank" class="btn btn-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Smart Finance Tracker</div>
+            <div class="card-body">
+              <p>A financial management tool with the following features:</p>
+              <ul>
+                <li><strong>Index Page:</strong> Modern design using JavaScript and Bootstrap.</li>
+                <li><strong>Reports:</strong> Yearly, monthly, weekly, and daily expenditure reports with graphs.</li>
+                <li><strong>Goal Planning:</strong> Set and track financial goals.</li>
+                <li><strong>Articles:</strong> Financial literacy and investment advice.</li>
+                <li><strong>AI Model:</strong> Machine learning to analyze trends, forecast, and optimize expenditures.</li>
+              </ul>
+              <a href="https://github.com/EricGikunguNyokabi/smart-finance-tracker" target="_blank" class="btn btn-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <p>Feel free to reach out for collaborations or opportunities.</p>
+      <p><strong>Email:</strong> nyokabigikungueric@gmail.com</p>
+      <p><strong>Phone:</strong> +254701 838 170</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Eric Gikungu Nyokabi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
